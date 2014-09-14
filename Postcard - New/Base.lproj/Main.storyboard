@@ -61,6 +61,15 @@
                                     <rect key="frame" x="16" y="82" width="368" height="65"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="nameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dfw-P6-IJa">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="155" width="271" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="ja6-SJ-3VS"/>
                                 <exclude reference="J81-zT-jS6"/>
                                 <exclude reference="xba-pf-Ge4"/>
+                                <exclude reference="Dfw-P6-IJa"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="ja6-SJ-3VS"/>
                                 <include reference="J81-zT-jS6"/>
                                 <include reference="xba-pf-Ge4"/>
+                                <include reference="Dfw-P6-IJa"/>
                             </mask>
                         </variation>
                     </view>
@@ -91,6 +102,7 @@
                         <outlet property="enterNameTextField" destination="Og6-t6-oTz" id="sNS-YN-aJ5"/>
                         <outlet property="mailButton" destination="J81-zT-jS6" id="6o8-yX-egC"/>
                         <outlet property="messageLabel" destination="xba-pf-Ge4" id="IEz-Ea-Jbv"/>
+                        <outlet property="nameLabel" destination="Dfw-P6-IJa" id="vxA-dk-WvP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
